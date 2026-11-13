@@ -1,0 +1,1 @@
+The checkout integration test uses the configured `cubetech_ecommerce` database. It creates uniquely named Phase 2 fixtures, verifies checkout and stock behavior through HTTP, and deletes only those fixture orders/products/category in `finally`. It does not reset or truncate any database tables.
